@@ -1,0 +1,56 @@
+.item-card{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.item-card.high{
+    border-left: 6px solid red;
+    margin: 5px;
+}
+.item-card.medium{
+    border-left: 6px solid yellow;
+    margin: 5px;
+}
+.item-card.low{
+    border-left: 6px solid green;
+    margin: 5px;
+}
+.checkbox{
+    display: inline-block;
+    border: 2px solid black;
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.card{
+    margin-left: 20px;
+}
+.badge{
+    border-radius: 50px;
+    padding: 4px 10px;
+    margin-left: auto;
+    width: 70px;
+    text-align: center;
+    /* text-transform: lowercase; */
+}
+.badge.high{
+    color:red;
+    background-color:#ff000033;
+}
+.badge.medium{
+    background-color:#ffff0033;
+    color:yellowgreen;
+}
+.badge.low{
+    background-color: #00800033;
+    color:green;
+}
+.card.strike{
+    text-decoration: line-through;
+}

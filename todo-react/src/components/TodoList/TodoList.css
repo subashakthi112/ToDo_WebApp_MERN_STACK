@@ -1,0 +1,27 @@
+.butn-container{
+    margin-bottom: 15px;
+    gap:10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.butn-container .p-btn{
+    border:1px solid;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    width:60px;
+    padding: 4px 10px;
+}
+.butn-container .p-btn.selected.low{
+    border:1px solid #31fc03;
+    background-color: #31fc0333;
+}
+.butn-container .p-btn.selected.medium{
+    border:1px solid #fce303;
+    background-color: #fce30333;
+}
+.butn-container .p-btn.selected.high{
+    border:1px solid red;
+    background-color: #fc390333;
+}
